@@ -1,0 +1,31 @@
+.botao-geral {
+
+    button {
+        background: transparent;
+        width: 240px;
+        height: 50px;
+        margin:15px 0;
+        padding-left: 20px;
+
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap:15px;
+
+        .icone{
+            width: 35px;
+            height: 50px;
+        }
+        
+        color:white;
+        border: 1px solid transparent;
+        border-radius: 5px;
+    }
+
+    button:active,
+    button:hover{
+        color:#210725;
+        border-color: #210725;
+    }
+
+}

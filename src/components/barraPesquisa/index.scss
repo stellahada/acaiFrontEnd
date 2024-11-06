@@ -1,0 +1,26 @@
+.barraPesquisa{
+    @font-face {
+        font-family: 'satoshi';
+        src: url('./../../../public/assets/fonts/Satoshi-Variable.ttf');
+    }
+
+    input{
+        width: 250px;
+        height: 50px;
+        background: rgba(116, 129, 92, 0.2);
+        padding-left:10px;
+        border-radius: 12px 0px 0px 12px;
+        border:none;
+    }
+
+    button{
+        height: 52px;
+        width: 70px;
+        border-radius: 0 12px 12px 0;
+        background: #74815C;
+        color:white;
+        border:none;
+        font-family: satoshi;
+    }
+}
+

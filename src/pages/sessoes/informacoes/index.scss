@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: mulish;
+    src: url(../../../../public/assets/fonts/Mulish-Medium.ttf);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(../../../../public/assets/fonts/BebasNeue-Regular.ttf);
+}
+
+.page-informacoes{
+    height: 140vh;
+    
+    background-image: url('../../../../public/assets/images/informacoes/acai-folha.png'),url('../../../../public/assets/images/informacoes/acai-folha.png');
+    background-size: 25vw, 25vw;
+    background-repeat: no-repeat, no-repeat;
+    background-position:140vh 30vw, -25vh 0%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+
+
+    .modal-toten{
+        width: 100%;
+        max-width: 170vh;
+        height: 70vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        
+
+        border-radius: 30px;
+        margin-top: 60px;
+        border: 2px #74815C solid;
+        background-color: white;
+        gap: 40px;
+
+        img{
+            width: 100%;
+            max-width:20vw;
+        }
+
+        .informacoes-pedido{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+
+            h1{
+                font-family: bebas;
+            }
+
+            p{
+                font-family: mulish;
+            }
+
+            .pedido{
+                width: 100%;
+                max-width: 12vw;
+                height: 4vh;
+                text-align: center;
+                border-radius: 7px;
+                background-color: #74815C;
+                opacity: 70%;
+                color: black;
+
+                p{
+                    opacity: 100%;
+                }
+
+                
+            }
+        }
+
+        button{
+            width: 100%;
+            max-width: 5vw;
+            height: 7vh;
+
+            margin-left: 100px;
+
+            background-color: #74815C;
+            color: black;
+            border: none;
+            border-radius: 10px;
+
+            font-family: arch;
+            cursor: pointer;
+        }
+        
+
+
+
+    }
+
+    .container-titulo{
+        font-family: Lexend;
+        color: #210725;
+        margin-top: 5vh;
+        font-size: clamp(0.5rem, 1.3vw, 3rem);
+    }
+    .container-informacoes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        
+
+        width: 100%;
+        max-width: 70vw;
+        height: 100vh;
+        
+
+        .image-acai{
+            width: 100%;
+            max-width: 25vw;
+            height: 70vh;
+            img{
+               
+                width:100%;
+                max-width: 35vw;
+                height: 70vh;
+            }
+        }
+
+        .informacoes{
+                width:100%;
+                max-width: 26vw;
+                height: 70vh;
+               
+
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            
+
+            border: 3px #74815C solid;
+            border-radius: 40px;
+            background-color: white;
+
+            .texto{
+            width: 100%;
+            max-width: 30vw;
+            margin-left: 5vw;
+            display: flex;
+            flex-direction: column;
+            font-family: Lexend;
+            font-style: regular;
+
+            text-align: start;
+            gap: 10px;
+                h1{
+                    font-size: clamp(0.2rem, 2vw, 5rem);
+                    color: #210725;
+                    
+                }
+                p{
+                    font-size: clamp(0.2rem, 1vw, 5rem);
+                    color: #3F3148;
+
+                    span{
+                        color: #74815C ;
+                    }
+                }
+                
+            }
+            
+        }
+
+
+    }
+
+
+}

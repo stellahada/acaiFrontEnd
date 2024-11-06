@@ -1,0 +1,30 @@
+.sessoes-geral{
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+        list-style-type: none;
+        padding: 10px 5px;
+        background: #74815c96;
+        border-radius: 5px;
+        width: 350px;
+        
+        @font-face {
+            font-family: 'satoshi';
+            src: url('./../../../public/assets/fonts/Satoshi-Variable.ttf');
+        }
+        li{
+            color: #74815cbb;
+            background: transparent;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-family: satoshi;
+        }
+        li:active,
+        li:hover{
+            color: white;
+            background: #74815C;
+        }
+    }
+}

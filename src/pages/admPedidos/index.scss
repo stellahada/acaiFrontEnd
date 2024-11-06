@@ -1,0 +1,68 @@
+.Acompanhamento-geral{
+  display: flex;
+  min-height: 100vh;
+  height: auto;
+
+  @font-face {
+    font-family: 'neue';
+    src: url('./../../../public/assets/fonts/BebasNeue-Regular.ttf');
+  }
+  .ladoEsq{
+    background: #74815C;
+    box-sizing: border-box;
+    padding: 50px 30px;
+    width: 20%;
+
+    h1{
+      font-family: neue;
+      font-size: 40px;
+      color: #210725;
+    }
+
+    .botoes-tela{
+      margin-top: 60px;
+      font-weight: neue;
+
+      .botao-sair{
+        position: absolute;
+        bottom: 20px;
+      }
+    }
+    position: fixed;
+    min-height: 100vh;
+    
+  }
+
+  .ladoDir{
+    width: 80%;
+    margin-left: 20%;
+    box-sizing: border-box;
+    padding: 10px 50px;
+
+    @font-face {
+      font-family: 'inter';
+      src: url('./../../../public/assets/fonts/Inter-Italic-VariableFont_opsz\,wght.ttf');
+    }
+
+    h1{
+      font-weight:bold ;
+    }
+
+    h1,h2{
+      font-family: inter;
+    }
+
+    .sessoesBarra{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .pedidos{
+      display: flex;
+      gap:20px;
+      flex-wrap: wrap;
+    }
+  }
+
+}

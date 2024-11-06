@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: arch;
+    src: url('../../../public/assets/fonts/Archivo-Bold.ttf');
+}
+
+.destaque-comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+
+
+    width: 100%;
+    max-width: 20vw;
+    height: 60vh;
+    border-radius: 20px;
+
+    .informacoes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        height: 10vh;
+
+        background-color: white;
+        margin: 10px;
+        border-radius: 20px;
+
+        margin-top: auto;
+
+        h1{
+            font-size: clamp(0.5rem, 1.3vw, 3rem);
+            font-family: arch;
+        }
+        p{
+            font-size: clamp(0.5rem, 1.3vw, 3rem);
+            font-family: arch;
+        }
+
+        button{
+            width: 100%;
+            max-width: 5vw;
+            height: 7vh;
+            border: none;
+            border-radius: 50px;
+
+            color: white;
+            background-color:#74815C ;
+
+            font-family: arch;
+            cursor: pointer;
+            font-size: clamp(0.5rem, 1vw, 3rem);
+        }
+    }
+}

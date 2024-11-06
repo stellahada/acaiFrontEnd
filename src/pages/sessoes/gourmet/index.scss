@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.container-destaques::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px; 
+}
+
+
+.container-destaques::-webkit-scrollbar-thumb {
+    background: #74815C; 
+    border-radius: 10px; 
+}
+
+
+.container-destaques::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+
+
+.container-destaques::-webkit-scrollbar-thumb:hover {
+    background: #2A2A2A; 
+}
+
+.page-gourmet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+
+    background-image: url('../../../../public/assets/images/gourmet/fundo.png');
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    background-position: 100% 100%;
+
+    height: 100vh;
+    gap: 100px;
+    margin-top: 10vh;
+
+    .titulo{
+        display: flex;
+        font-size: clamp(0.5rem, 1.3vw, 3rem);
+        align-self: start;
+        h1{
+            color: #2A2A2A;
+            text-align: start;
+            margin-left: 3vw;
+        }
+    }
+    
+
+    .container-gourmet{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+        gap: 50px;
+
+        overflow-x: auto; 
+        scroll-behavior: smooth; 
+        padding-bottom: 10px; 
+        width: 100%;
+        max-width: 73vw; 
+        height: 100vh;
+        white-space: nowrap; 
+
+    }
+    .destaque-comp {
+        flex-shrink: 0;
+    }
+}

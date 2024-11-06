@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: mulish;
+    src: url('../../../public/assets/fonts/Mulish-Medium.ttf');
+}
+
+.modal-confirmado{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0,0,0, 0.7);
+    z-index: 2000;
+
+
+    .container-confirmado{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        max-width: 25vw;
+        height: 80vh;
+
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        border-radius:30px;
+        background-color: #FBEAD7;
+
+        display: flex;
+        flex-direction: column;               
+        
+        justify-content: center;
+        align-items: center;
+        z-index: 200;
+        gap: 15px;
+
+
+        img{
+            width: 100%;
+            max-width: 20vw;
+            height: 40vh;
+        }
+
+        h1{
+            font-family: mulish;
+            color: black;
+            font-size: clamp(0.5rem, 1.5vw, 3rem);
+        }
+        .texto{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            p{
+                color:#8E8EA9;
+                font-size: clamp(0.5rem, 1vw, 3rem);
+            }
+        }
+       
+
+        button{
+        width: 100%;
+        max-width: 20vw;
+        height: 5vh;
+        border: none;
+        border-radius: 10px;
+        background-color:#74815C ;
+        color: white;
+            font-family: mulish;
+        margin-top: 50px;
+
+        cursor: pointer;
+        }
+    }
+}

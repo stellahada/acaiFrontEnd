@@ -1,0 +1,23 @@
+.botaoPedidos-geral{
+    background-color: transparent;
+
+    button{
+        height: 40px;
+        padding: 0 20px;
+        border-radius: 5px;
+
+        cursor: pointer;
+    }
+
+    .false{
+        color: red;
+        border-color: red;
+        background: transparent;
+    }
+
+    .true{
+        color:green;
+        border-color: green;
+        background: transparent;
+    }
+}

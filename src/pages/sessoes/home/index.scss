@@ -1,0 +1,114 @@
+@font-face {
+    font-family: londrina;
+    src: url('../../../../public/assets/fonts/LondrinaSolid-Regular.otf');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.page-home{
+    display: flex;
+    background-color: #210725;
+
+    max-height: 100vh;
+    height: 100%;
+    
+    background-image: url('../../../../public/assets/images/Home/cremoso.png');
+    background-repeat: no-repeat;
+    background-position:50% 35%;
+    background-size: 70vw;
+
+    .container-home{
+        width: 100%; 
+        max-width: 100vw;
+        height: 100vh;
+        position: relative;
+
+        .images-home{
+            position: absolute;
+            top: 0; 
+            left: 55%; 
+            transform: translate(-50%, 0);
+    
+            img{
+                width: 100%;
+                max-width:170vw; 
+                height: 120vh; 
+              
+            }
+        }
+        .logo-home{
+            display: flex;
+            flex-direction: row;
+            margin: 3vh;
+            color: #7F815C;
+            font-size: clamp(0.5rem, 1vw, 3rem);
+            width: 100%;
+            max-width:5vw; 
+            height: 5vh; 
+        }
+    }
+
+    .botao-flutuante{
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: 7vh;
+        z-index: 100;
+        width: 100%;
+        max-width: 6vw;
+        height: 12vh;
+    
+
+        .quantidade{
+            position: absolute;
+            top: 0;
+            margin-top: 5px;
+            margin-left: 20px;
+
+            display: flex;
+            width: 100%;
+            max-width: 2vw;
+            height: 4vh;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            background-color: black;
+            color: white;
+            border: none;
+            z-index: 20;
+        }
+    
+        .botao{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            border: none;
+            width: 100%;
+            max-width:10vw;
+
+            max-height: 15vh;
+            height: 100%;
+            border-radius: 100%;
+            background-color: #87956F;
+
+            cursor: pointer;
+
+            .sacola{
+                width: 100%;
+                max-width: 3.5vw;
+                height: auto;
+            }
+        }
+    }
+
+   
+
+    
+}
