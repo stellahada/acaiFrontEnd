@@ -15,18 +15,17 @@
 }
 
 .page-informacoes{
-    height: 140vh;
+    height: 130vh;
     
     background-image: url('../../../../public/assets/images/informacoes/acai-folha.png'),url('../../../../public/assets/images/informacoes/acai-folha.png');
     background-size: 25vw, 25vw;
     background-repeat: no-repeat, no-repeat;
-    background-position:140vh 30vw, -25vh 0%;
+    background-position:124vh 30vw, -26vh 0%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 70px;
 
 
     .modal-toten{

@@ -1,6 +1,6 @@
 @font-face {
-    font-family: londrina;
-    src: url('../../../../public/assets/fonts/LondrinaSolid-Regular.otf');
+    font-family: bebas;
+    src: url(../../../../public/assets/fonts/BebasNeue-Regular.ttf);
 }
 *{
     margin: 0px;
@@ -26,7 +26,7 @@
         max-width: 100vw;
         height: 100vh;
         position: relative;
-
+        font-family: bebas;
         .images-home{
             position: absolute;
             top: 0; 
